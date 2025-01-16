@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    
+}
+
+.image-container img {
+    transition: transform 0.3s ease, box-shadow 0.7s ease;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.image-container img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 20px 39px rgba(0, 0, 0, 0.3); 
+}
+ p { text-align: center; align-items: center;
+
+ }
+ .para {    text-align: center; 
+    margin: 0 auto; 
+    max-width: 80%;
+    opacity: 0.5;}
+
+
+    @font-face {
+        font-family: 'rem'; 
+        src: url('Remscheid.ttf') format('truetype'); 
+    }
+
+    @font-face {  font-family: 'sentnax'; src: url('sentnax.ttf') format('truetype');} 
+
+    
+    
+    .tprin {
+        font-size: 110px;
+        font-family: 'sentnax';
+        margin-top: 2%; 
+        text-align: center;
+    }
+    .tbol { font-family: 'sentnax'; font-size: 90px; text-align: left; margin-left: 1%;
+
+    }
+    .tit { margin-top: 2%; 
+
+    }
+     
+    .mapas {
+        display: flex;
+        justify-content: flex-end; 
+        margin-right: 1,6%; }
+      
+       
+
+
+    
+    .btn-container {
+        display: flex;
+        justify-content: flex-end; text-align: left;
+        padding: 10px; 
+      }
+      
+      
+      .card1 {background-color:#d6e68a; 
+        padding: 18px; 
+        width: 52%; 
+        margin-left: 44%; 
+        border-radius: 16px;
+
+      }
+
+      .texto1 { text-align: justify;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+          padding: 15px;
+           font-size: 21px;
+
+      }
+
+      .bot4k { background-color: #029b99;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); margin-left: 90%;
+
+       } 
+       .tabelastextimg { width: 92%;
+        
+       }
+       .titcards {  font-family: 'sentnax'; font-size: 65px; margin-left: 35px; background-color: #d6e68a; width: 23%; text-align: center; margin-top: 2px;
+
+       }
+
+       .card1H { background-color:#d6e68a; 
+        padding: 18px; 
+        width: 65%; 
+        margin-left: 35%; 
+        border-radius: 16px;
+
+       }
+
+    
+  
+
+
+    
+
+
